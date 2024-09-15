@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Project from "./components/Project";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <About />
         <Technologies />
         <Project/>
+        <Footer/>
       </div>
     </>
   );
