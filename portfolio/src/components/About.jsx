@@ -3,40 +3,35 @@ import { motion } from "framer-motion";
 //import { assets } from '../assets/assets';
 
 const containerVariants = {
-  hidden: {opacity:0 , x:-100},
-  visible:{
-    opacity:1 ,
-    x:0 ,
-    transition:{
-      duration:0.5,
-      staggerChildren:0.5
-
-    }
+  hidden: { opacity: 0, x: -100 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 0.5,
+      staggerChildren: 0.5,
+    },
   },
 };
 
-const childVariants= {
-  hidden: {opacity:0 , x:-100},
-  visible:{ opacity:1 , x:0 , transition:{duration:0.5}}
-}
+const childVariants = {
+  hidden: { opacity: 0, x: -100 },
+  visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
+};
 
 const About = () => {
   return (
     <motion.div
-    initial="hidden"
-    animate="visible"
-    variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      variants={containerVariants}
       className={`flex flex-col p-8 pt-20  bg-background font-sans antialiased max-w-4xl mx-auto py-12 sm:py-24 px-6`}
       id="about"
     >
       <div className="flex flex-col md:flex-row gap-8 items-center max-w-[600px] md:text-left">
         {/* Text Content */}
         <div className="flex-1">
-          <motion.p
-            className="text-lg"
-            variants={childVariants}
-         
-          >
+          <p className="text-lg" variants={childVariants}>
             <motion.span
               className="inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl mb-4 text-white"
               variants={childVariants}
@@ -51,7 +46,7 @@ const About = () => {
               a Software Engineer who loves building innovative solutions and
               empowering others through technology.
             </motion.span>
-          </motion.p>
+          </p>
         </div>
 
         {/* Image */}
