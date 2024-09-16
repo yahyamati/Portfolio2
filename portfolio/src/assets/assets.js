@@ -3,39 +3,38 @@ import project2 from "../assets/projects/train-urself.png";
 import project3 from "../assets/projects/summer.png";
 import project4 from "../assets/projects/spotify.png";
 import photo from './photo.jpg';
-import university from './University.png';
-import { HomeIcon, Github, Linkedin, Instagram, } from "lucide-react";
+import { FaHome,FaGithub ,FaLinkedin,FaInstagram} from 'react-icons/fa';
+import { Target } from "lucide-react";
+
 
 export const assets = {
   photo,
-  university
 };
 
 
 
 export const DATA = {
   navbar: [
-    { href: "#about", icon: HomeIcon, label: "Home" },
+    { href: "#about", icon: FaHome, label: "Home" },
   ],
-  contact: {
     social: {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/yahyamati/",
-        icon: Github,
+        icon: FaGithub,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/yahya-mati-265381298/",
-        icon: Linkedin,
+        icon: FaLinkedin,
       },
       Instagram: {
         name: "Instagram",
         url: "https://www.instagram.com/mati_yahia/",
-        icon: Instagram,
+        icon: FaInstagram,
       },
     },
-  },
+  
 };
 
 

@@ -71,10 +71,9 @@ const About = () => {
           className="text-xl bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
           variants={childVariants}
         >
-          I am a dedicated and versatile full stack developer with a passion for
-          creating efficient and user-friendly web applications. With 1 years of
-          professional experience, I have worked with a variety of technologies,
-          including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My
+          I am a Software Engineer and a full stack developer with a passion for
+          creating efficient and user-friendly web applications.I have worked with a variety of technologies,
+          including React, Next.js, Node.js, MySQL, and MongoDB. My
           journey in web development began with a deep curiosity for how things
           work, and it has evolved into a career where I continuously strive to
           learn and adapt to new challenges. I thrive in collaborative
