@@ -4,7 +4,7 @@ import project3 from "../assets/projects/summer.png";
 import project4 from "../assets/projects/spotify.png";
 import photo from './photo.jpg';
 import { FaHome,FaGithub ,FaLinkedin,FaInstagram} from 'react-icons/fa';
-import { Target } from "lucide-react";
+
 
 
 export const assets = {
@@ -76,7 +76,7 @@ export const PROJECTS = [
     image: project1,
     description: "An interactive platform for seamless food ordering and delivery. It offers users an easy way to browse menus, place orders, and track deliveries in real-time. The website provides a user-friendly interface for both customers and restaurant owners.",
     technologies: ["React.js", "Tailwind.css", "Express", "MongoDB"],
-    source: "https://github.com/yahyamati/ecommerce-website", 
+    source: "https://github.com/yahyamati/Delivery-food", 
     website: "https://delivery-food-frontend.onrender.com", 
   },
   {
@@ -84,7 +84,7 @@ export const PROJECTS = [
     image: project2,
     description: "A web-based quiz application where users can test their knowledge across various topics. It offers a clean, interactive interface for taking quizzes, reading articles, and participating in CSS battles for an engaging learning experience.",
     technologies: ["React.js", "Tailwind.css", "Express","MongoDB"],
-    source: "https://github.com/yahyamati/ecommerce-website",
+    source: "https://github.com/yahyamati/Quiz-app",
     website: "https://train-urself.onrender.com", 
   },
   {
@@ -92,7 +92,7 @@ export const PROJECTS = [
     image: project3,
     description: "Summzie is an AI-powered article summarizer that transforms lengthy articles into concise summaries. It extracts key insights from complex content, making reading easier and more efficient. The tool helps users quickly grasp essential information from any article.",
     technologies: ["React.js", "Tailwind.css", "GPT-4 API"],
-    source: "https://github.com/yahyamati/ecommerce-website",
+    source: "https://github.com/yahyamati/Summarize_Articles_OpenAI-GPT-4",
     website: "https://summarize-articles-eight.vercel.app", 
   },
   {
@@ -100,13 +100,8 @@ export const PROJECTS = [
     image: project4,
     description: "A Spotify-inspired playlist management app that lets users create, search, and organize playlists with a dynamic filtering system. Built with an intuitive UI for seamless music experience and persistent playlist storage.",
     technologies: ["React.js", "Tailwind.css", "Express", "MongoDB"],
-    source: "https://github.com/yahyamati/ecommerce-website",
+    source: "https://github.com/yahyamati/Spotify",
     website: "https://spotify-app-2qc3.onrender.com", 
   },
 ];
 
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153",
-  phoneNo: "+12 4555 666 00",
-  email: "me@example.com",
-};
