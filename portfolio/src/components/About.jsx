@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-//import { assets } from '../assets/assets';
+// import { assets } from '../assets/assets';
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -25,13 +25,13 @@ const About = () => {
       initial="hidden"
       animate="visible"
       variants={containerVariants}
-      className={`flex flex-col p-8 pt-20  bg-background font-sans antialiased max-w-4xl mx-auto py-12 sm:py-24 px-6`}
+      className="flex flex-col p-8 pt-20 bg-background font-sans antialiased max-w-4xl mx-auto py-12 sm:py-24 px-6 overflow-hidden"
       id="about"
     >
       <div className="flex flex-col md:flex-row gap-8 items-center max-w-[600px] md:text-left">
         {/* Text Content */}
         <div className="flex-1">
-          <p className="text-lg" variants={childVariants}>
+          <motion.p className="text-lg">
             <motion.span
               className="inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl mb-4 text-white"
               variants={childVariants}
@@ -46,15 +46,15 @@ const About = () => {
               a Software Engineer who loves building innovative solutions and
               empowering others through technology.
             </motion.span>
-          </p>
+          </motion.p>
         </div>
 
         {/* Image */}
         {/* <div className='flex-shrink-0'>
-          <img 
-            className='hidden lg:!flex rounded-full h-36 w-36 object-cover shadow-lg' 
-            src={assets.photo} 
-            alt="Yahia Mati" 
+          <img
+            className='hidden lg:!flex rounded-full h-36 w-36 object-cover shadow-lg'
+            src={assets.photo}
+            alt="Yahia Mati"
           />
         </div> */}
       </div>
@@ -72,7 +72,7 @@ const About = () => {
           variants={childVariants}
         >
           I am a Software Engineer and a full stack developer with a passion for
-          creating efficient and user-friendly web applications.I have worked with a variety of technologies,
+          creating efficient and user-friendly web applications. I have worked with a variety of technologies,
           including React, Next.js, Node.js, MySQL, and MongoDB. My
           journey in web development began with a deep curiosity for how things
           work, and it has evolved into a career where I continuously strive to
