@@ -36,7 +36,7 @@ const About = () => {
               className="inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl mb-4 text-white"
               variants={childVariants}
             >
-              Hi, I'm Yahia 👋
+              Hi, I'm Yahia 
             </motion.span>
             ,
             <motion.span
