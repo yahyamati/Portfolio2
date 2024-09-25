@@ -40,7 +40,7 @@ const About = () => {
             </motion.span>
             ,
             <motion.span
-              className="inline-block max-w-[600px] md:text-2xl bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
+              className="inline-block text-xl bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
               variants={childVariants}
             >
               a <FlipWords words={["Software", "Web"]} duration={3000} /> Developer who loves building innovative solutions and
