@@ -20,7 +20,7 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
   return (
-    <div className='pb-20 overflow-hidden'>
+    <div className='pb-20 overflow-hidden '>
       <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -28,7 +28,7 @@ const Technologies = () => {
         className='my-20 text-center text-4xl bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-transparent'>
         Technologies
       </motion.h2>
-      <motion.div className='flex flex-wrap items-center justify-center gap-8'
+     <motion.div className='flex flex-wrap items-center justify-center gap-8 max-w-4xl mx-auto '
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}>
