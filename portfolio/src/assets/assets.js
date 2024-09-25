@@ -2,6 +2,7 @@ import project1 from "../assets/projects/DeliveryFood.png";
 import project2 from "../assets/projects/train-urself.png";
 import project3 from "../assets/projects/summer.png";
 import project4 from "../assets/projects/spotify.png";
+import Hackathon1 from "../assets/hackathon/hackwave-hackathon.png";
 import photo from './photo.jpg';
 import { FaHome,FaGithub ,FaLinkedin,FaInstagram} from 'react-icons/fa';
 
@@ -39,35 +40,16 @@ export const DATA = {
 
 
 
-export const EXPERIENCES = [
+export const HACKATHONS = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "September - 2024",
+    name: "HackWave Hackathon",
+    image:Hackathon1,
+    place: "Alger, Algeria",
+    description: "We developed a Chrome extension that handles the three steps, from the first step of integrating SATIM's payment platform to the final step, improving the efficiency of validation by automating message management.",
+    source: "https://github.com/yahyamati/hackwave2",
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+
 ];
 
 export const PROJECTS = [
