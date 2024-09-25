@@ -62,14 +62,14 @@ const Project = () => {
                 >
                   Github
                 </a>
-                <a
+                {/* <a
                   href={project.website}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:underline"
                 >
                   Website
-                </a>
+                </a> */}
               </div>
             </motion.div>
           </div>
