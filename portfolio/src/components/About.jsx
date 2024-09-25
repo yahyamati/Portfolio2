@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-// import { assets } from '../assets/assets';
+import { FlipWords } from "./ui/FlipWords"; // Ensure this path is correct
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -43,13 +43,13 @@ const About = () => {
               className="inline-block max-w-[600px] md:text-2xl bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
               variants={childVariants}
             >
-              a Software Engineer who loves building innovative solutions and
+              a <FlipWords words={["Software", "Web"]} duration={3000} /> Developer who loves building innovative solutions and
               empowering others through technology.
             </motion.span>
           </motion.p>
         </div>
 
-        {/* Image */}
+        {/* Image (optional) */}
         {/* <div className='flex-shrink-0'>
           <img
             className='hidden lg:!flex rounded-full h-36 w-36 object-cover shadow-lg'
@@ -71,7 +71,7 @@ const About = () => {
           className="text-xl bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
           variants={childVariants}
         >
-          I am a Software Engineer and a full stack developer with a passion for
+          I am a Software and a Web developer with a passion for
           creating efficient and user-friendly web applications. I have worked with a variety of technologies,
           including React, Next.js, Node.js, MySQL, and MongoDB. My
           journey in web development began with a deep curiosity for how things
