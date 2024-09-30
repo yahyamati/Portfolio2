@@ -47,7 +47,7 @@ export const HACKATHONS = [
     image:Hackathon1,
     place: "Alger, Algeria",
     description: "We developed a Chrome extension that handles the three steps, from the first step of integrating SATIM's payment platform to the final step, improving the efficiency of validation by automating message management.",
-    source: "https://github.com/yahyamati/hackwave2",
+    source: "https://www.linkedin.com/posts/yahya-mati-265381298_proud-to-have-participated-in-hackwave-activity-7244642291926056960-lIqE?utm_source=share&utm_medium=member_desktop",
   },
 
 ];

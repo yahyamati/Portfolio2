@@ -51,7 +51,7 @@ const Hackathon = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:underline"
                 >
-                  Github
+                  View Linkedin 
                 </a>
               </div>
             </motion.div>
